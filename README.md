@@ -40,17 +40,18 @@ Pré-requisitos: Python 3.1, Django 5.0
 # clonar repositório
 git clone https://github.com/iuriAvil4/Projeto-Site-Orcamento
 
-# instalar o FrameWork Django
+# Instalar o Framework Django
 pip install django
 
+# Configurar banco de dados
 # entre no arquivo setting.py, e altere os campos contidos dentro da constant DATABASES,
-# para as informações do seu banco de dados pra realizar a conecção
+# para as informações do seu banco de dados pra realizar a conexão
 
-# faça a migração do models no Django para o seu banco de dados
+# Fazer migrações e aplicar no banco de dados
 python manage.py makemigrations
 python manage.py migrate
 
-# execute o projeto e clique no endereço fornecido
+# Execute o projeto e clique no endereço fornecido
 python manage.py runserver
 ```
 
