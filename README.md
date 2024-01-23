@@ -25,7 +25,7 @@ As informações são então armazenadas em um banco de dados Oracle (com perspe
 ## Back end
 - Python
 - Django
-- Oracle Databse
+- Oracle Database
 
 ## Front end
 - HTML / CSS 
