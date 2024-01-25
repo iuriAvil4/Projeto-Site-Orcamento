@@ -1,14 +1,14 @@
 import smtplib
 import email.message
 
-def enviar_email(cliente):
+def enviar_email(nome, sobrenome, Email, telefone, descricao):
     corpo_email = f"""
     <p><strong>Novo Orçamento Recebido</strong></p>
-    <p><strong>Nome:</strong> {cliente.nome}</p>
-    <p><strong>Sobrenome:</strong> {cliente.sobrenome}</p>
-    <p><strong>Email:</strong> {cliente.email}</p>
-    <p><strong>Telefone:</strong> {cliente.telefone}</p>
-    <p><strong>Descrição:</strong> {cliente.descricao}</p>
+    <p><strong>Nome:</strong> {nome}</p>
+    <p><strong>Sobrenome:</strong> {sobrenome}</p>
+    <p><strong>Email:</strong> {Email}</p>
+    <p><strong>Telefone:</strong> {telefone}</p>
+    <p><strong>Descrição:</strong> {descricao}</p>
     """
     msg = email.message.Message()
     msg['Subject'] = "Novo Orçamento Recebido"
