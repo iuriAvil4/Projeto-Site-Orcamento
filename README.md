@@ -4,7 +4,7 @@
 
 Um sistema de Orçamento, onde o cliente fornece informações pessoais e descreve detalhadamente suas preferências por meio de um formulário. 
 
-As informações são então armazenadas em um banco de dados Oracle através de uma procedure (PL/SQL). Além disso, o sistema envia automaticamente um e-mail para meu endereço pessoal, contendo todas as informações fornecidas pelo cliente, bem como a descrição do pedido.
+As informações são então armazenadas em um banco de dados Oracle através de uma procedure (PL/SQL). Além disso, o sistema envia automaticamente um e-mail para um endereço que desejar, contendo todas as informações fornecidas pelo cliente, bem como a descrição do pedido.
 
 
 ## Layout web
